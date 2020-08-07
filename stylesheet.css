@@ -1,0 +1,544 @@
+html, body
+{
+	background-color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	overflow-x: hidden !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	background-color: #ffc973;
+}
+
+*
+{
+	text-decoration: none !important;
+}
+
+.nav
+{
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 25px 0px 25px;
+	background-color: #fff;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.10);
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px; 
+}
+
+.nav .links a
+{
+	margin-right: 25px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+}
+
+.nav .links .mainlink
+{
+	color: #e0501b;
+}
+
+.nav .h4
+{
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: 25px;
+
+}
+
+/* 		Landing Page CSS		*/
+
+.Landing
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10vw 0 10vw;
+	height: 100vh;
+}
+
+.LandingText h1
+{
+	font-size: 6vw;
+	margin: 0!important;
+
+}
+
+.LandingText h3
+{
+	margin: 6px !important;
+	font-size: 20px;
+	opacity: 0.3;
+	line-height: 30px;
+}
+
+.LandingText .btn
+{
+	width: 120px;
+	margin-top: 30px;
+	font-size: 1.2vw;
+	padding: 14px 20px  14px 20px;
+	background-color: #2f8be0;
+	border-radius: 45px;
+	text-align: center;
+}
+
+.LandingText .btn a
+{
+	font-size: 1.2vw;
+	color: white;
+
+}
+
+.LandingImage img
+{
+	width: 40vw;
+}
+
+/* About CSS */
+
+.about
+{
+	overflow-y: hidden;
+	height: 600px;
+	padding: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.abouttext
+{
+	position: relative;
+	padding: 0%;
+	height: inherit;
+}
+
+.abouttext h1
+{
+	position: relative;
+	top: -70px;
+	left: 40px;
+}
+
+.abouttext img
+{
+	width: 10vw;
+	position: absolute;
+	top: 50px;
+}
+
+.aboutlist
+{
+	width: 60%;
+}
+
+ol
+{
+	list-style: none;
+	color: #e0501b;
+}
+
+ol li
+{
+	font-size: 34px;
+	position: relative;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ebebeb;
+}
+
+li p
+{
+	font-size: 16px;
+	color: #000;
+	padding-top: 30px;
+	padding-left: 60px;
+	line-height: 30px;
+	opacity: 0.6;
+}
+
+li span
+{
+	position: absolute;
+	line-height: 25px;
+	font-weight: 600;
+}
+
+/*Info Section*/
+.info_section
+{
+	height: 600px;
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+.info_header
+{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.info_header h1
+{
+	font-size: 40px;
+	margin-bottom: 8%;
+
+}
+
+.info_cards
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 40px 0 40px 0;
+}
+
+.info_cards .card
+{
+	position: relative;
+	height: 360px;
+	width: 350px;
+	background: #fff;
+	box-shadow: 0 10px 22px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.09);
+}
+
+.info_cards .one .cardoneimg
+{
+	width: 300px;
+	position: absolute;
+	top: -90px;
+	right: 30px;
+}
+
+.info_cards .two .cardoneimg
+{
+	width: 250px;
+	position: absolute;
+	top: -90px;
+	right: 50px;
+}
+
+.info_cards .three .cardoneimg
+{
+	width: 250px;
+	position: absolute;
+	top: -90px;
+	right: 50px;
+}
+
+
+.cardbgone
+{
+	height: 150px;
+	background-color: #ffce63;
+}
+
+.cardcontent
+{
+	padding: 0 20px;
+}
+
+.cardcontent h2
+{
+	font-weight: 600;
+}
+
+.cardcontent p
+{
+	line-height: 30px;
+	opacity: 0.6px;
+}
+
+.cardcontent .cardbtn
+{
+	position: absolute;
+	right: 20px;
+	padding: 10px;
+	background-color: #ededed;
+	width: 25px;
+	height: 20px;
+	border-radius: 6px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all ease-in-out 0.2s;
+}
+
+.cardcontent .cardbtn:hover
+{
+	background-color: #2f8be0;
+}
+
+.cardcontent .cardbtn .cardicon
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 16px;
+}
+
+/*banner*/
+.banner
+{
+	height: 400px;
+	background-color: #ffc973;
+	display: flex;
+	flex-direction: row;
+	padding: 50px;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.bannertext h1
+{
+	font-size: 3vw;
+	color: #000;
+	font-weight: 600;
+}
+
+.bannertext img
+{
+	width: 13vw;
+	margin-right: 20px;
+}
+
+.bannerimg img
+{
+	width: 13vw;
+}
+
+/*footer*/
+.footer
+{
+	background-color: #fff;
+	height: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 25px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.footerlinks a
+{
+	margin: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+}
+
+.footerlinks .mainlink
+{
+	color: #e0501b;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 600px)
+{
+
+	.nav
+	{
+		flex-direction: column;
+		justify-content: space-around;
+		padding: 20px;
+		height: auto;
+		overflow-y:hidden;
+	}
+
+	.nav h4
+	{
+		font-size: 6vw;
+		margin-top: 10px;
+		margin-bottom: 14px;
+	}
+
+	.nav .links a
+	{
+		margin-right: 25px;
+		font-size: 12px;
+		font-weight: 600;
+	}
+
+	/* landing page */
+	.Landing
+	{
+		flex-direction: column-reverse;
+		height: 750px;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.LandingText h1
+	{
+		font-size: 6vw;
+		margin: 0 !important;
+
+	}
+
+	.LandingText h3
+	{
+		font-size: 16px;
+	}
+
+	.LandingText .btn
+	{
+		margin: 0 auto;
+	}
+
+	.LandingText .btn a
+	{
+		font-size: 2vw;
+	}
+	.LandingImage img
+	{
+		width: 100vw;
+		margin-bottom: 20px;
+	}
+
+	/*about*/
+
+	.about
+	{
+		height: auto;
+		padding: 0px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.abouttext
+	{
+		padding: 0 550px;
+		height: 100px;
+	}
+
+	.abouttext h1
+	{
+		margin-bottom:  100px;
+		top: 0px;
+		left: 60px;
+		font-size: 5vw;
+	}
+
+	.abouttext img
+	{
+		width: 13vw;
+		top: 10px;
+	}
+
+	.aboutlist
+	{
+		width: 75%;
+	}
+
+	ol li
+	{
+		font-size: 26px;
+	}
+
+	.onehead
+	{
+		margin-top: 100px;
+	}
+
+	.threehead p
+	{
+		padding-top: 60px;
+	}
+
+	.fivehead p
+	{
+		padding-top: 60px;
+	}
+
+	li p
+	{
+		font-size: 14px;
+	}
+
+	.info_section
+	{
+		height: auto;
+	}
+
+	.info_header
+	{
+		text-align: center;
+		text-align: center;
+		margin: 40px 0;
+	}
+
+	.info_cards
+	{
+		display: flex;
+		flex-direction: column;
+		padding: 50px;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.info_cards .card
+	{
+		margin-bottom: 60px; 
+	}
+
+	.two img
+	{
+		padding-top: 25px;
+	}
+
+	.three img
+	{
+		padding-top: 70px;
+	}
+
+	.banner
+	{
+		height: auto;
+		flex-direction: column-reverse;
+		padding: 50px;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.banner h1
+	{
+		font-size: 6vw;
+	}
+
+	.bannerinnertext
+	{
+		font-size: 3vw !important;
+	}
+
+	.bannertext img
+	{
+		width: 20vw;
+	}
+
+	.bannerimg img
+	{
+		width: 26vw;
+	}
+
+	.footer
+	{
+		padding-bottom: 40px;
+	}
+}
+
+
