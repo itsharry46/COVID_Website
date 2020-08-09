@@ -324,23 +324,13 @@ li span
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	height: 50px;
+	font-size: 22px;
 	padding-bottom: 25px;
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
 }
 
-.footerlinks a
-{
-	margin: 20px;
-	font-size: 16px;
-	font-weight: 600;
-	color: #000;
-}
-
-.footerlinks .mainlink
-{
-	color: #e0501b;
-}
 
 /*Responsive*/
 @media only screen and (max-width: 600px)
@@ -370,6 +360,11 @@ li span
 	}
 
 	/* landing page */
+	.LandingText .btn a
+	{
+		font-size: 2.5vw;
+	}
+
 	.Landing
 	{
 		flex-direction: column-reverse;
@@ -500,9 +495,19 @@ li span
 		padding-top: 25px;
 	}
 
+	.two .cardbtn img
+	{
+		margin-top: -25px;
+	}
+
 	.three img
 	{
 		padding-top: 70px;
+	}
+
+	.three .cardbtn img
+	{
+		margin-top: -65px;
 	}
 
 	.banner
@@ -535,9 +540,10 @@ li span
 		width: 26vw;
 	}
 
-	.footer
+	.footer p
 	{
-		padding-bottom: 40px;
+		padding-top: 10px;
+		font-size: 18px;
 	}
 }
 
